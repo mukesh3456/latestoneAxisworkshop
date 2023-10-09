@@ -1,0 +1,115 @@
+.slick-arrow{
+    border-radius: 35px;
+}
+/* .bg-overlay-theme-black-80:before{
+    background-color: #000000a6;
+} */
+.btn-transparent {
+    background-color: #d90b0bf2;
+}
+
+.bg-overlay-theme-black-100::before{
+    background-color: #000000e3 !important;
+}
+
+.fadeIn {
+    font-size: 21px !important;
+}
+.text-size{
+ 
+        font-size: 20px;
+}
+
+.bg-black-111:before{
+    background-color: #000000d4 !important;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.bg-overlay-theme-black-90:before {
+    background: rgb(101 129 137 / 23%) !important;
+}
+
+.ltn__main-menu > ul > li > a {
+    font-size: 18px !important;
+}
+.whatsapp-icon {
+    position: fixed;
+    left: 50px;
+    bottom: 40px;
+    width: 70px;
+    height: 70px;
+    z-index: 999;
+}
+
+@media (min-width: 1200px) and (max-width: 1300px){
+.ltn__main-menu > ul > li:last-child {
+    margin-right: -50px;
+}
+
+.email{
+    margin-top: 25px;
+}
+.emaitop{
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+}
+@media(max-width:768px){
+    .logoimg{
+        width:80px !important;
+        height: 40px !important;
+    }
+    .email{
+        margin-top: 35px;
+    }
+    .address{
+        font-size: 11px;
+    }
+    .toggle-new{
+        margin-left: 50px !important;
+        margin-top: 10px !important;
+    }
+}
+.ltn__contact-message-area{
+    margin-bottom: 0px;
+}
+
+.shadow9 {
+    
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 
+                 0px 0px 10px rgba(255, 255, 255, 1), 
+                 0px 0px 15px rgba(255, 255, 255, 1),
+                 0px 0px 20px rgb(232, 239, 230),
+                 0px 0px 30px rgb(241, 245, 240),
+                 0px 0px 40px rgb(203, 207, 202),
+                 0px 0px 55px rgb(193, 198, 191),
+                 0px 0px 75px rgb(230, 232, 230);
+   
+                 
+  }
+
+  /* text-shadow: 2px 2px 0px #FFFFFF, 5px 4px 0px rgba(0,0,0,0.15), 2px 6px 10px rgba(206,89,55,0);  */
+
+  .shadow8 {
+    text-shadow: 3px 3px 5px rgba(203, 208, 203, 0.851);
+ }
+
+ /* @media (max-width: 767px){
+.ltn__breadcrumb-area-2{
+    padding-bottom: 0px !important;
+
+}
+} */
+
+
+.logoimg{
+    width:140px;
+    height: 80px;
+}
